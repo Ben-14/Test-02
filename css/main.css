@@ -167,7 +167,7 @@ p {
 
 /* media query */
 
-@media all and (max-width: 635px){
+@media all and (max-width: 600px){
     .home_grid{
       margin: auto;
     }
@@ -199,6 +199,7 @@ p {
     }
     .context p{
       font-size: 15px;
+      padding: 2px 20px;
     }
     #formButton{
       width: 150px;
