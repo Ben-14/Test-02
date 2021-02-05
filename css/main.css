@@ -6,7 +6,7 @@ html {
 }
 body {
   background-color: #005096;
-  overflow-x: hidden;
+  overflow-y: hidden;
   align-items: center;
   justify-content: center;
 	padding: 0;
@@ -37,6 +37,8 @@ h3 {
   text-align: center;
 }
 p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 /*First Sectiom */
@@ -122,11 +124,12 @@ p {
   color: #0000
 }
 .context p {
-  font-size: 23px;
+  font-size: 25px;
   line-height: 1.2;
   font-family: 'Montserrat', sans-serif;
 	color: #fff;
   text-align: center;
+  margin: 1rem 0rem;
 }
 #formButton {
   width: 300px;
@@ -192,8 +195,15 @@ p {
       margin-top: 10px;
       font-size: 10px;
     }
+    #end{
+      height: 60vh;
+    }
+    .box-2{
+      visibility: hidden;
+      height: 0px;
+    }
   }
-@media all and (min-width: 900px) {
+@media all and (min-width: 800px) {
     .navbar .nav-item .dropdown-menu {
       display: block;
       opacity: 0;
@@ -291,6 +301,12 @@ p {
   flex-direction: column;
   justify-content: center;
 }
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card-deck .row {
   margin: auto;
 }
@@ -299,7 +315,6 @@ p {
   padding-left: 0;
   padding-right: 0;
 }
-
 
  .social-media {
    display: flex;
